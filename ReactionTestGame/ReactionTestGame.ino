@@ -1,8 +1,9 @@
-const int starterLed = 2;
-const int button1 = 5; 
-const int button2 = 3;
-const int led1 =  7;
-const int led2 =  6;
+#define starterLed 2
+#define button1 5 
+#define button2 3
+#define led1 7
+#define led2 6
+
 long startTime = 0;
 long reactionTime = 0;
 boolean gameOver = false;
