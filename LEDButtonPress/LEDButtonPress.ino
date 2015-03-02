@@ -1,5 +1,5 @@
-const int button = 5; 
-const int led =  7;
+#define button 5
+#define led 7
 
 void setup() {
   pinMode(led, OUTPUT);
